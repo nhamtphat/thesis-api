@@ -26,6 +26,18 @@
       "relation": "oneToMany",
       "target": "api::hotel.hotel",
       "mappedBy": "ward"
+    },
+    "restaurants": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::restaurant.restaurant",
+      "mappedBy": "ward"
+    },
+    "destinations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::destination.destination",
+      "mappedBy": "ward"
     }
   }
 }
